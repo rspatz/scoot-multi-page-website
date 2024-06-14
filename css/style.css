@@ -65,3 +65,18 @@ p {
   font-size: 0.9rem;
   line-height: 1.5625rem;
 }
+
+/* Buttons */
+button {
+  background-color: var(--yellow);
+  border: 2px solid var(--yellow);
+  padding: 0.5rem 2.5rem;
+  color: var(--snow);
+  transition: all 0.35s;
+}
+
+button:hover {
+  background-color: var(--snow);
+  border: 2px solid var(--yellow);
+  color: var(--yellow);
+}
