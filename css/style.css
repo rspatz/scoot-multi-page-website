@@ -2,3 +2,66 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  --yellow: #fcb72b;
+  --dark-navy: #495567;
+  --dim-grey: #939caa;
+  --light-grey: #e5ecf4;
+  --snow: #f2f5f9;
+  --light-yellow: #fff4df;
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'SpaceMono-Bold';
+  src: url('../fonts/Space_Mono/SpaceMono-Bold.ttf');
+  format: 'true-type';
+}
+
+@font-face {
+  font-family: 'LexendDeca-Regular';
+  src: url('../fonts/Lexend_Deca/static/LexendDeca-Regular.ttf');
+  format: 'true-type';
+}
+
+/* Base Styles */
+h1 {
+  font-family: 'SpaceMono-Bold';
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  character-spacing: -0.15625rem;
+}
+
+h2 {
+  font-family: 'SpaceMono-Bold';
+  font-size: 3rem;
+  line-height: 3rem;
+  character-spacing: -0.13375rem;
+}
+
+h3 {
+  font-family: 'SpaceMono-Bold';
+  font-size: 2.5rem;
+  line-height: 3rem;
+  character-spacing: -0.111875rem;
+}
+
+h4 {
+  font-family: 'SpaceMono-Bold';
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  character-spacing: -0.066875rem;
+}
+
+body {
+  font-family: 'LexendDeca-Regular';
+  font-size: 0.9rem;
+  line-height: 1.5625rem;
+}
+
+p {
+  font-family: 'LexendDeca-Regular';
+  font-size: 0.9rem;
+  line-height: 1.5625rem;
+}
