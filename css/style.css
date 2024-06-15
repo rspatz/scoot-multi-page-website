@@ -80,3 +80,25 @@ button:hover {
   border: 2px solid var(--yellow);
   color: var(--yellow);
 }
+
+/* Navigation */
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 2rem 7rem;
+}
+
+.navigation-container img {
+  width: 12%;
+  height: 5%;
+}
+
+nav ul {
+  display: flex;
+  width: 90%;
+}
+
+nav a {
+  margin: 0 1rem;
+}
