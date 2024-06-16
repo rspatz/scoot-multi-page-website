@@ -85,7 +85,7 @@ button:hover {
 .navigation-container {
   display: flex;
   width: 90%;
-  margin: 2rem 8rem 2rem 12rem;
+  margin: 2rem 8rem 0 12rem;
   align-items: center;
 }
 
@@ -105,4 +105,46 @@ nav a {
   margin: 0 1rem;
   text-decoration: none;
   color: var(--dim-grey);
+}
+
+/* Header: Home Page */
+.home-page-header {
+  height: 35rem;
+  padding: 2rem;
+  width: 100%;
+  background: url('../assets/images/home-hero-desktop.jpg') no-repeat 0 0;
+  background-position: bottom;
+}
+
+.home-page-header h1 {
+  width: 45%;
+  margin: 6rem 0 0 9rem;
+}
+
+.home-page-header p {
+  height: 0;
+  width: 26%;
+  margin: 0 0 0 5rem;
+  padding: 0;
+}
+
+.steps-paragraph {
+  display: flex;
+  align-items: center;
+  margin: 3rem 0 0 0;
+  border: 0;
+  height: 0;
+}
+
+header button {
+  margin: 9rem 0 0 17.5rem;
+}
+
+/* Arrows */
+.steps-arrow {
+  margin: 14rem 0 0 3rem;
+}
+
+.steps-line {
+  margin-top: 5rem;
 }
