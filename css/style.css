@@ -154,6 +154,23 @@ header button {
   margin: 0 0 0 62rem;
 }
 
+/* Careers Header */
+.careers-header {
+  display: flex;
+  align-items: center;
+  padding-left: 12rem;
+  height: 10rem;
+  background: url('../assets/images/careers-locations-hero-desktop.jpg')
+    no-repeat 0 0;
+  background-position: center;
+  background-color: var(--dark-navy);
+  overflow: hidden;
+}
+
+.careers-header .steps-circles {
+  margin: 0 0 0 59rem;
+}
+
 /* Arrows */
 .steps-arrow {
   margin: 14rem 0 0 3rem;
