@@ -71,7 +71,7 @@ button {
 }
 
 button:hover {
-  background-color: var(--snow);
+  background-color: #fff;
   border: 2px solid var(--yellow);
   color: var(--yellow);
 }
@@ -201,4 +201,26 @@ header button {
 .steps-circles {
   margin: 0 0 0 83rem;
   height: 3rem;
+}
+
+/* Sign-Up Section */
+.sign-up-section {
+  display: flex;
+  align-items: center;
+  height: 20rem;
+  margin-top: 15rem;
+  background: var(--dark-navy);
+}
+
+.sign-up-section h1 {
+  width: 35%;
+  margin: 0 28rem 0 5rem;
+}
+
+.sign-up-section img {
+  margin-right: 1rem;
+}
+
+/* Footer */
+footer {
 }
