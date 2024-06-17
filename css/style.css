@@ -31,6 +31,7 @@ h1 {
   font-size: 3.5rem;
   line-height: 3.5rem;
   character-spacing: -0.15625rem;
+  color: var(--snow);
 }
 
 h2 {
@@ -84,14 +85,14 @@ button:hover {
 /* Navigation */
 .navigation-container {
   display: flex;
-  width: 90%;
-  margin: 2rem 8rem 0 12rem;
+  width: 80%;
+  margin: 2rem 8rem 1rem 12rem;
   align-items: center;
 }
 
 .navigation-container img {
   width: 10%;
-  height: 4%;
+  height: 2%;
 }
 
 nav ul {
@@ -111,9 +112,8 @@ nav a {
 .home-page-header {
   height: 35rem;
   padding: 2rem;
-  width: 100%;
   background: url('../assets/images/home-hero-desktop.jpg') no-repeat 0 0;
-  background-position: bottom;
+  background-position: center;
 }
 
 .home-page-header h1 {
@@ -123,9 +123,10 @@ nav a {
 
 .home-page-header p {
   height: 0;
-  width: 26%;
-  margin: 0 0 0 5rem;
+  width: 27%;
+  margin: 0 0 0 2rem;
   padding: 0;
+  color: var(--snow);
 }
 
 .steps-paragraph {
@@ -147,4 +148,10 @@ header button {
 
 .steps-line {
   margin-top: 5rem;
+}
+
+/* Circles */
+.steps-circles {
+  margin: 0 0 0 78rem;
+  overflow: hidden;
 }
