@@ -55,12 +55,6 @@ h4 {
   character-spacing: -0.066875rem;
 }
 
-body {
-  font-family: 'LexendDeca-Regular';
-  font-size: 0.9rem;
-  line-height: 1.5625rem;
-}
-
 p {
   font-family: 'LexendDeca-Regular';
   font-size: 0.9rem;
@@ -103,6 +97,7 @@ nav ul {
 }
 
 nav a {
+  font-family: 'LexendDeca-Regular';
   margin: 0 1rem;
   text-decoration: none;
   color: var(--dim-grey);
@@ -114,6 +109,8 @@ nav a {
   padding: 2rem;
   background: url('../assets/images/home-hero-desktop.jpg') no-repeat 0 0;
   background-position: center;
+  background-color: var(--dark-navy);
+  overflow: hidden;
 }
 
 .home-page-header h1 {
@@ -141,6 +138,22 @@ header button {
   margin: 9rem 0 0 17.5rem;
 }
 
+/* About Header */
+.about-header {
+  display: flex;
+  align-items: center;
+  padding-left: 12rem;
+  height: 10rem;
+  background: url('../assets/images/about-hero-desktop.jpg') no-repeat 0 0;
+  background-position: center;
+  background-color: var(--dark-navy);
+  overflow: hidden;
+}
+
+.about-header .steps-circles {
+  margin: 0 0 0 62rem;
+}
+
 /* Arrows */
 .steps-arrow {
   margin: 14rem 0 0 3rem;
@@ -152,6 +165,6 @@ header button {
 
 /* Circles */
 .steps-circles {
-  margin: 0 0 0 78rem;
-  overflow: hidden;
+  margin: 0 0 0 83rem;
+  height: 3rem;
 }
