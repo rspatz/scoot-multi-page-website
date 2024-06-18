@@ -188,6 +188,27 @@ header button {
   margin: 0 0 0 55rem;
 }
 
+/* Steps Section */
+.steps-section {
+  margin: 10rem 0;
+}
+
+.section-cards {
+  display: flex;
+}
+
+.steps-icon {
+  margin: 2rem 0;
+}
+
+.section-cards h4 {
+  margin: 2rem 0;
+}
+
+.section-cards p {
+  width: 67%;
+}
+
 /* Arrows */
 .steps-arrow {
   margin: 14rem 0 0 3rem;
