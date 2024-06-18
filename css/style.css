@@ -214,6 +214,7 @@ header button {
   width: 90%;
   margin: 10rem 20rem 10rem 9.5rem;
   overflow: hidden;
+  height: 95rem;
 }
 
 .text-left {
@@ -238,7 +239,11 @@ header button {
 .benefit-2,
 .benefit-3 {
   display: flex;
-  margin-bottom: 5rem;
+}
+
+.benefit-2,
+.benefit-3 {
+  margin-top: 12rem;
 }
 
 .benefits-image-right {
@@ -253,8 +258,19 @@ header button {
   margin-left: 0;
 }
 
-.benefits-arrow-icon {
-  margin: 0 0 0 40rem;
+.benefits-arrow-icon-1 {
+  position: relative;
+  margin: -6rem 0 0 44rem;
+}
+
+/* .benefits-arrow-icon-2 {
+  position: relative;
+  margin: -6rem 0 0 44rem;
+} */
+
+.benefits-arrow-icon-3 {
+  position: relative;
+  margin: -18rem 0 0 65rem;
 }
 
 /* Arrows */
