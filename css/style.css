@@ -213,8 +213,8 @@ header button {
 }
 
 .sign-up-section h1 {
-  width: 35%;
-  margin: 0 28rem 0 5rem;
+  width: 39%;
+  margin: 0 18rem 0 9rem;
 }
 
 .sign-up-section img {
@@ -222,5 +222,71 @@ header button {
 }
 
 /* Footer */
+
+/* .navigation-container {
+  display: flex;
+  width: 80%;
+  margin: 2rem 8rem 1rem 12rem;
+  align-items: center;
+}
+
+.navigation-container img {
+  width: 10%;
+  height: 2%;
+}
+
+nav ul {
+  display: flex;
+  width: 90%;
+  margin: 0 30rem 0 5rem;
+  list-style-type: none;
+}
+
+nav a {
+  font-family: 'LexendDeca-Regular';
+  margin: 0 1rem;
+  text-decoration: none;
+  color: var(--dim-grey);
+} */
+
 footer {
+  display: flex;
+  align-items: center;
+  height: 5rem;
+  background-color: #2a313c;
+}
+
+.footer-navigation-container {
+  display: flex;
+  width: 75%;
+  margin: 2rem 0 1rem 9rem;
+  align-items: center;
+}
+
+.footer-nav ul {
+  display: flex;
+  width: 90%;
+  margin: 0 25rem 0 5rem;
+  list-style-type: none;
+}
+
+.footer-nav a {
+  font-family: 'LexendDeca-Regular';
+  margin: 0 1rem;
+  text-decoration: none;
+  color: var(--dim-grey);
+}
+
+.filter-white {
+  filter: invert(99%) sepia(14%) saturate(1%) hue-rotate(178deg)
+    brightness(103%) contrast(100%);
+}
+
+.social {
+  display: flex;
+  height: 1.5rem;
+}
+
+.social img {
+  margin-right: 1rem;
 }
