@@ -209,6 +209,54 @@ header button {
   width: 67%;
 }
 
+/* Benefits Section */
+.benefits-section {
+  width: 80%;
+  margin: 10rem auto;
+}
+
+.text-left {
+  width: 95%;
+  margin: 4rem 3rem 0 0;
+}
+
+.text-left h2 {
+  width: 80%;
+}
+
+.text-left p {
+  width: 73%;
+  margin: 2rem 0;
+}
+
+.benefits-btn {
+  margin-bottom: 2rem;
+}
+
+.benefit-1,
+.benefit-2,
+.benefit-3 {
+  display: flex;
+  /* justify-content: space-around; */
+  margin-bottom: 5rem;
+  overflow: hidden;
+}
+
+.benefits-image-right {
+  display: flex;
+  width: 45%;
+}
+
+.benefits-image-right img {
+  height: 25rem;
+  border-radius: 50%;
+  margin: 0 1.5rem;
+}
+
+.benefits-arrow-icon {
+  margin: 0 0 0 40rem;
+}
+
 /* Arrows */
 .steps-arrow {
   margin: 14rem 0 0 3rem;
@@ -243,33 +291,6 @@ header button {
 }
 
 /* Footer */
-
-/* .navigation-container {
-  display: flex;
-  width: 80%;
-  margin: 2rem 8rem 1rem 12rem;
-  align-items: center;
-}
-
-.navigation-container img {
-  width: 10%;
-  height: 2%;
-}
-
-nav ul {
-  display: flex;
-  width: 90%;
-  margin: 0 30rem 0 5rem;
-  list-style-type: none;
-}
-
-nav a {
-  font-family: 'LexendDeca-Regular';
-  margin: 0 1rem;
-  text-decoration: none;
-  color: var(--dim-grey);
-} */
-
 footer {
   display: flex;
   align-items: center;
