@@ -211,10 +211,10 @@ header button {
 
 /* Benefits Section */
 .benefits-section {
-  width: 90%;
-  margin: 10rem 20rem 10rem 9.5rem;
+  width: 100%;
+  margin: 10rem 20rem 10rem 0;
   overflow: hidden;
-  height: 95rem;
+  height: 120rem;
 }
 
 .text-left {
@@ -223,11 +223,25 @@ header button {
 }
 
 .text-left h2 {
-  width: 70%;
+  width: 65%;
 }
 
 .text-left p {
-  width: 58%;
+  width: 55%;
+  margin: 2rem 0;
+}
+
+.benefit-2 .text-right {
+  width: 100%;
+  margin: 2rem 0 0 20rem;
+}
+
+.benefit-2 .text-right h2 {
+  width: 90%;
+}
+
+.benefit-2 .text-right p {
+  width: 80%;
   margin: 2rem 0;
 }
 
@@ -239,6 +253,11 @@ header button {
 .benefit-2,
 .benefit-3 {
   display: flex;
+  padding: 0 0 0 7rem;
+}
+
+.benefit-2 {
+  flex-direction: row-reverse;
 }
 
 .benefit-2,
@@ -255,6 +274,18 @@ header button {
   height: 25rem;
   border-radius: 50%;
   margin: 0 3rem;
+  margin-left: 0;
+}
+
+.benefits-image-left {
+  display: flex;
+  width: 40%;
+}
+
+.benefits-image-left img {
+  height: 25rem;
+  border-radius: 50%;
+  margin: 0 3rem 0 0;
   margin-left: 0;
 }
 
