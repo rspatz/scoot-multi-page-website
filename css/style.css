@@ -209,6 +209,34 @@ header button {
   width: 67%;
 }
 
+/* Steps Section Mobile */
+@media only screen and (max-width: 600px) {
+  .steps-section {
+    margin: 10rem 0;
+  }
+
+  .section-cards {
+    flex-direction: column;
+  }
+
+  .steps-icon {
+    width: 15%;
+    margin: 4rem auto;
+    margin-bottom: 2rem;
+  }
+
+  .section-cards h4 {
+    width: 75%;
+    margin: 2rem 7rem;
+  }
+
+  .section-cards p {
+    text-align: center;
+    width: 67%;
+    margin: 0 5rem;
+  }
+}
+
 /* Benefits Section */
 .benefits-section {
   overflow: hidden;
@@ -309,14 +337,24 @@ header button {
   margin: 14rem 0 0 3rem;
 }
 
-.steps-line {
-  margin-top: 5rem;
+.steps-background {
+  filter: invert(99%) sepia(14%) saturate(1%) hue-rotate(178deg)
+    brightness(103%) contrast(100%);
+  opacity: 25%;
+  length: 2000px;
 }
 
 /* Circles */
 .steps-circles {
-  margin: 0 0 0 83rem;
+  margin: 0 0 0 85rem;
   height: 3rem;
+}
+
+/* Circles: Mobile */
+@media only screen and (max-width: 600px) {
+  .steps-circles {
+    display: none;
+  }
 }
 
 /* Sign-Up Section */
