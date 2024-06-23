@@ -20,6 +20,12 @@
 }
 
 @font-face {
+  font-family: 'SpaceMono-Regular';
+  src: url('../fonts/Space_Mono/SpaceMono-Regular.ttf');
+  format: 'true-type';
+}
+
+@font-face {
   font-family: 'LexendDeca-Regular';
   src: url('../fonts/Lexend_Deca/static/LexendDeca-Regular.ttf');
   format: 'true-type';
@@ -103,6 +109,13 @@ nav a {
   color: var(--dim-grey);
 }
 
+/* Mobile Navigation */
+@media only screen and (max-width: 600px) {
+  .navigation-container {
+    display: none;
+  }
+}
+
 /* Header: Home Page */
 .home-page-header {
   height: 35rem;
@@ -138,14 +151,63 @@ header button {
   margin: 9rem 0 0 17.5rem;
 }
 
+/* Mobile Header: Home Page */
+@media only screen and (max-width: 600px) {
+  .home-page-header {
+    height: 45rem;
+    background: url('../assets/images/home-hero-mobile.jpg') no-repeat 0 0;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .home-page-header h1 {
+    font-family: 'SpaceMono-Regular';
+    font-size: 2.5rem;
+    text-align: center;
+    width: 95%;
+    margin: 6rem auto;
+    margin-bottom: 6rem;
+  }
+
+  .home-page-header p {
+    width: 71%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+
+  .steps-paragraph {
+    display: flex;
+    align-items: center;
+    margin: 3rem 0 0 0;
+    border: 0;
+    height: 0;
+  }
+
+  .steps-arrow {
+    display: none;
+  }
+
+  .steps-line {
+    display: none;
+  }
+
+  header button {
+    margin: 9rem;
+    width: 40%;
+  }
+}
+
 /* About Header */
 .about-header {
   display: flex;
   align-items: center;
   padding-left: 12rem;
+  margin-bottom: 8rem;
   height: 10rem;
   background: url('../assets/images/about-hero-desktop.jpg') no-repeat 0 0;
   background-position: center;
+  background-size: cover;
   background-color: var(--dark-navy);
   overflow: hidden;
 }
@@ -163,6 +225,7 @@ header button {
   background: url('../assets/images/careers-locations-hero-desktop.jpg')
     no-repeat 0 0;
   background-position: center;
+  background-size: cover;
   background-color: var(--dark-navy);
   overflow: hidden;
 }
@@ -180,6 +243,7 @@ header button {
   background: url('../assets/images/careers-locations-hero-desktop.jpg')
     no-repeat 0 0;
   background-position: center;
+  background-size: cover;
   background-color: var(--dark-navy);
   overflow: hidden;
 }
