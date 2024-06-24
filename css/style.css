@@ -216,6 +216,19 @@ header button {
   margin: 0 0 0 62rem;
 }
 
+/* FAQ Accordian */
+.faq {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+}
+
+.faq li.question-responses {
+  display: none;
+}
+
 /* Careers Header */
 .careers-header {
   display: flex;
@@ -383,7 +396,7 @@ header button {
 
 .benefits-arrow-icon-1 {
   position: relative;
-  margin: -8rem 0 0 55rem;
+  margin: -12rem 0 0 65rem;
 }
 
 .benefits-arrow-icon-2 {
