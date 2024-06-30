@@ -527,19 +527,23 @@ ul li {
 .values-2 img,
 .values-3 img {
   border-radius: 50%;
-  z-index: 0;
+  z-index: -9999;
+  position: relative;
 }
 
-.values-1 h4,
-.values-2 h4,
-.values-3 h4 {
+.values-number {
   height: 2rem;
   width: 2rem;
   padding: 2rem;
   background: var(--yellow);
   border-radius: 50%;
-  margin: -4rem 5rem;
+  margin: -2.5rem 5rem;
   z-index: 9999;
+}
+
+.values-text {
+  text-align: center;
+  margin: 3rem 0;
 }
 
 /* Arrows */
