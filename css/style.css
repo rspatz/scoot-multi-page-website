@@ -217,12 +217,39 @@ header button {
 }
 
 /* FAQ Accordian */
+
 .faq {
   display: flex;
 }
 
-ul li {
+.accordian-wrapper {
+  overflow: auto;
+}
+
+.section-headings h2 {
+  color: var(--dim-grey);
+  width: 95%;
+  margin: 15rem 25rem 25rem 0;
+}
+
+.question {
+  margin-bottom: 1rem;
+}
+
+.questions-right h3 {
+  font-size: 2rem;
+}
+
+.questions-right p {
+  width: 70%;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.accordian ul li {
   list-style: none;
+  background-color: var(--light-grey);
+  padding: 0.25rem 2rem;
 }
 
 .faq li.question-responses {
